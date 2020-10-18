@@ -7,7 +7,7 @@ class App extends Component {
     return (
       <>
         <ol>
-          {cities.map((cities, index) => (
+          {cities.map((city, index) => (
             <li key={`location${index + 1}`}>{city}</li>
           ))}
         </ol>
